@@ -14,6 +14,8 @@
 		213FDA0C220A5A70006D444E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213FDA0A220A5A70006D444E /* LaunchScreen.storyboard */; };
 		213FDA17220A5A71006D444E /* FalconEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213FDA16220A5A71006D444E /* FalconEyeTests.swift */; };
 		213FDA22220A5A71006D444E /* FalconEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213FDA21220A5A71006D444E /* FalconEyeUITests.swift */; };
+		21F2E609221B383300D8881D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F2E608221B383300D8881D /* AboutViewController.swift */; };
+		21F2E60B2224A14200D8881D /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F2E60A2224A14200D8881D /* AboutAuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		213FDA1D220A5A71006D444E /* FalconEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213FDA21220A5A71006D444E /* FalconEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconEyeUITests.swift; sourceTree = "<group>"; };
 		213FDA23220A5A71006D444E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F2E608221B383300D8881D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		21F2E60A2224A14200D8881D /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				213FDA01220A5A6D006D444E /* AppDelegate.swift */,
 				213FDA03220A5A6D006D444E /* ViewController.swift */,
+				21F2E608221B383300D8881D /* AboutViewController.swift */,
 				213FDA05220A5A6D006D444E /* Main.storyboard */,
+				21F2E60A2224A14200D8881D /* AboutAuthorViewController.swift */,
 				213FDA08220A5A70006D444E /* Assets.xcassets */,
 				213FDA0A220A5A70006D444E /* LaunchScreen.storyboard */,
 				213FDA0D220A5A70006D444E /* Info.plist */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F2E609221B383300D8881D /* AboutViewController.swift in Sources */,
 				213FDA04220A5A6D006D444E /* ViewController.swift in Sources */,
 				213FDA02220A5A6D006D444E /* AppDelegate.swift in Sources */,
+				21F2E60B2224A14200D8881D /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +441,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EPR239P4G;
 				INFOPLIST_FILE = FalconEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8EPR239P4G;
 				INFOPLIST_FILE = FalconEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
